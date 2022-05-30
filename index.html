@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cat form</title>
+</head>
+
+<body>
+    <section>
+        <h1>CatPhotoApp</h1>
+        <h2>Cat Photos</h2>
+        <p>Click here to view more <a href="#">cat photos</a></p>
+        <img src="http://placekitten.com/200/300" alt="cat photo">
+    </section>
+    <section>
+        <h2>Cat lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasangna</li>
+            <img src="https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="lasagna photo">
+            <span>Cats <i>love</i> lasagna.</span>
+        </ul>
+    </section>
+    <section>
+        <h2>Top 3 things that cat hate:</h2>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+            <img src="https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80"
+                alt="cats" class="group-of-cats">
+        </ol>
+        <span>Cats <b>hate</b> other cats.</span>
+    </section>
+    <form action="">
+        <div class="question-one">
+            <h2>Cat form</h2>
+            <p>Is your cat an indoor or outdoor cat?</p>
+            <input type="radio" id="indoor-cat" name="indoor-outdoor-cat" value="indoor-cat">
+            <label for="indoor-cat">Indoor</label>
+            <!-- indoor cat selection -->
+            <input type="radio" name="indoor-outdoor-cat" value="indoor-cat" id="indoor-cat">
+            <label for="indoor-outdoor-cat" value="indoor-cat">Outdoor</label>
+            <!-- outdoor cat selection -->
+        </div>
+        <!-- end of first input -->
+        <div class="question-two">
+            <p>What is your cat personality?</p>
+            <input type="checkbox" id="loving" name="cat-personality" value="loving">
+            <label for="loving">Loving</label>
+            <!-- personality lovely -->
+            <input type="checkbox" id="lazy" name="cat-personality" value="lazy">
+            <label for="lazy">Lazy</label>
+            <!-- personality lazy -->
+            <input type="checkbox" id="energetic" name="cat-personality" value="energetic">
+            <label for="energetic">Energetic</label>
+        </div>
+        <input type="text">
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>

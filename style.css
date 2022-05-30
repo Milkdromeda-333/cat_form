@@ -1,0 +1,32 @@
+body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    margin: 20px 0;
+}
+
+button {
+    border-radius: 10px;
+}
+
+input {
+    margin-top: 10px;
+}
